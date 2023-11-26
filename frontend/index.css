@@ -1,0 +1,33 @@
+*
+{
+    font-family: Arial;
+}
+
+.container
+{
+    display : flex;
+    justify-content: center;
+
+}
+
+.inner-box {
+    border-style: solid;
+    border-color: rgb(181, 18, 18);
+    margin-top: 40px;
+    text-align: center;
+    padding : 30px;
+}
+
+.draw-fortune 
+{
+    border-style : none;
+    color : white;
+    background-color: rgb(181, 18, 18);
+    padding : 10px;
+    border-radius : 20px;
+    cursor: pointer;
+}
+.draw-fortune:hover
+{
+    opacity : 0.9;
+}
